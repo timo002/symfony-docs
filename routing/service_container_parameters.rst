@@ -49,7 +49,7 @@ inside your routing configuration:
         $routes = new RouteCollection();
         $routes->add('contact', new Route('/{_locale}/contact', [
             '_controller' => 'App\Controller\MainController::contact',
-        ), [
+        ], [
             '_locale' => '%app.locales%',
         ]));
 
